@@ -15,9 +15,9 @@ if email.count('@') != 1 or email.count('.') != 1:
 print(f"email = {email} # True")
 
 # Test cases
-# ("aaa@bbb.ccc"))  # True
-# ("invalid@@example.com"))  # False
-# ("noat.com"))  # False
-# "@domain.com"))  # False
-# ("user@domain"))  # False
-# ("user@domain."))  # False
+# ("aaa@bbb.ccc")  # True
+# ("invalid@@example.com")  # False
+# ("noat.com")  # False
+# "@domain.com")  # False
+# ("user@domain")  # False
+# ("user@domain.")  # False
